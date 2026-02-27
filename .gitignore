@@ -1,0 +1,27 @@
+node_modules
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# Archivos de configuración del entorno
+.env
+
+# Directorios de distribución
+dist/
+build/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración del editor
+.vscode/
+.idea/
+
+# Archivos de configuración de Git
+.git/
+
+# Archivos de locks
+package-lock.json 
