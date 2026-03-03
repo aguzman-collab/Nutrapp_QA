@@ -39,7 +39,59 @@
   "parrafoimagen1_SEC9": "La inteligencia artificial en el desarrollo de nuevos negocios digitales",
   "parrafoimagen2_SEC9": "¿Qué habilidades requieren las empresas de sus trabajadores en el camino a la transformación digital?",
   "parrafoimagen3_SEC9": "Las tecnologías que tendrán más demanda este 2023 en el desarrollo de software y aplicaciones web",
-  "parrafoContactanos_SEC10": "Nos comunicaremos contigo para conocer y atendercualquier inquietud que puedas tener."
+  "parrafoContactanos_SEC10": "Nos comunicaremos contigo para conocer y atendercualquier inquietud que puedas tener.",
+  "ParrafoNueServi_SEC1": "En Nutrapp, nuestros servicios digitales son una herramienta esencial para maximizar la eficiencia y productividad de nuestros usuarios. Nos dedicamos a simplificar tu camino hacia el éxito.",
+  "Parrafoblog_SEC1": "Publicamos artículos que abarcan temas relevantes y actuales, desde estrategias empresariales y gestión del talento, hasta innovaciones tecnológicas y tendencias de mercado",
+  "textofolainteli_SEC2": "La inteligencia artificial en el desarrollo de nuevos negocios digitales",
+  "items2": [
+  "La Inteligencia Artificial (IA) está cambiando la forma en que las empresas desarrollan nuevos negocios digitales. La IA puede ayudar a las empresas a identificar nuevos mercados, comprender mejor el comportamiento de los clientes y aumentar la rentabilidad.",
+  "Las empresas también están usando la IA para optimizar sus procesos de negocios y para detectar fraudes. Utilizando la IA para analizar datos, las empresas pueden tomar decisiones rápidas e informadas sobre el desarrollo de nuevos negocios. Además, a través de la IA, las empresas pueden crear productos y servicios innovadores para satisfacer las necesidades de los clientes. La IA también puede ayudar a las empresas a aprovechar al máximo los recursos disponibles para asegurar el éxito de los nuevos negocios digitales."
+  ], 
+  "items3": [
+    "La IA también puede ayudar a los equipos de desarrollo a crear innovadoras soluciones tecnológicas, a la vez que mejora la velocidad de desarrollo y la eficiencia.",
+    "La IA también se puede usar para crear modelos predictivos y generar informes de datos, lo que permite a las empresas comprender mejor el comportamiento de los clientes y aprovechar al máximo los recursos.",
+    "Finalmente, la IA también puede ayudar a las empresas a asegurar la seguridad de sus sistemas, detectar posibles amenazas y proteger las inversiones. En resumen, la Inteligencia Artificial es una herramienta invaluable para el desarrollo de nuevos negocios digitales."
+  ],
+  "textohabili_SEC3": "Qué habilidades requieren las empresas de sus trabajadores en el camino a la transformación digital",
+  "items4": [
+    "Las empresas necesitan contratar a personas con una amplia gama de habilidades para ayudar a llevar a cabo la transformación digital.",
+    "Estas habilidades incluyen alfabetización digital, seguridad y marketing digital, gestión de datos, habilidades de programación y desarrollo de aplicaciones, habilidades para trabajar con la nube, habilidades para trabajar con la tecnología blockchain, habilidades para trabajar con realidad aumentada y virtual, y habilidades para trabajar con la robótica."
+  ],
+  "Parrafoademas_SEC3": "Además, las empresas también necesitan personas con habilidades para comunicar y gestionar el cambio, para ayudar a los usuarios a entender y aceptar los cambios y para crear una cultura de innovación y colaboración.",
+  "Parrafo5habili_SEC3": "Las 5 habilidades blandas más demandadas en el año 2023 son:",
+  "items5": [
+    "Habilidades de comunicación.",
+    "Habilidades de colaboración.",
+    "Habilidades de creatividad.",
+    "Habilidades de resolución de problemas.",
+    "Habilidades interpersonales."
+    ],
+    "Parrafo2_5habili_SEC3": "Las 5 habilidades blandas más demandadas en el año 2023 son",
+    "items6": [
+    "Programación de computadoras",
+    "Habilidades de análisis de datos.",
+    "Habilidades en redes y seguridad.",
+    "Habilidades en inteligencia artificial.",
+    "Habilidades en ciencia de datos."
+    ],
+    "textotecno_SEC4": "Las tecnologías que tendrán más demanda este 2023 en el desarrollo de software y aplicaciones web",
+    "items7": [
+    "El desarrollo de software y aplicaciones web se ha convertido en una de las habilidades más demandadas en la era digital. En el año 2023, se espera que el desarrollo de aplicaciones web sea impulsado por las nuevas tecnologías más avanzadas, como la inteligencia artificial (IA), los sistemas automatizados, la realidad aumentada (AR) y la realidad virtual (VR).",
+    "La IA se usará para mejorar la experiencia del usuario en la web, como la personalización de contenido, el procesamiento de lenguaje natural y el aprendizaje automático. Los sistemas automatizados acelerarán la entrega de contenido y los procesos de desarrollo."
+    ],
+    "Parrafos1_SEC4": "La AR y la VR se usarán para crear aplicaciones innovadoras que permitan a los usuarios interactuar con contenido 3D y realista. Estas tecnologías se utilizarán para mejorar la usabilidad y la interactividad de las aplicaciones web, lo que aumentará su demanda en el año 2023.",
+    "Parrafos2_SEC4": "Las tendencias en desarrollo de soluciones digitales están impulsadas por el avance de la tecnología , la demanda de usuarios y la necesidad de mejoras en la productividad.",
+    "Parrafos3_SEC4": "La inteligencia artificial (IA)Para mejorar la experiencia del usuario, la mejora de la seguridad cibernética, el uso de la nube para almacenamiento y procesamiento de datos, el desarrollo de soluciones móviles", 
+    "Parrafos4_SEC4": "La tecnología blockchainPara realizar transacciones, el uso de la realidad aumentada y virtual para mejorar la experiencia del usuario", 
+    "Parrafos5_SEC4": "La robóticaPara automatizar los procesos, la manipulación de objetos y la realización de tareas de producción hasta la exploración de áreas remotas y la realización de trabajos peligrosos.", 
+    "Parrafos6_SEC4": "Estas tendencias permitirán a los usuarios tener una mejor experiencia con la aplicación, mejorar el rendimiento de los procesos y mejorar la seguridad de los datos. Estas tendencias serán clave en el desarrollo de soluciones digitales en el año 2023.",
+    "ParrrafoNuesExito_SEC7": "Cada logro ha sido un paso hacia adelante en nuestro camino de crecimiento, y nos complace profundamente que nuestros clientes hayan elegido recorrerlo con nosotros.",
+    "ParrrafoAliv_SEC7": "Alivia Latam es una plataforma de e-commerce y dispensario médico en WooCommerce para la venta de productos Nutrabiotics en Latinoamérica. Su objetivo es crear un dispensario virtual personalizado que permita a médicos y profesionales de la salud registrarse, validar credenciales, prescribir productos y realizar compras. Los pacientes pueden acceder mediante prescripciones y adquirir productos.",
+    "ParrrafoAMF_SEC7": "La landing page fue diseñada para atraer y convertir estudiantes potenciales en inscripciones al Diplomado, enfocándose en captar leads y vender el programa académico. Sus funciones clave incluyen la recolección de datos a través de un formulario de HubSpot, contenido atractivo, fácil navegación, un dominio específico y conexión con GA4 Analytics. Los usuarios objetivo son médicos y profesionales de la salud que cumplan con requisitos específicos.",
+    "TextoAPM_SEC7": "Funcional medicine advanced practice modules (APM)",
+    "ParrrafoAPM_SEC7": "Los Módulos de Práctica Avanzada (APM) del Instituto de Medicina Funcional están diseñados para médicos y profesionales de la salud que buscan profundizar en áreas específicas como salud cardiometabólica, inmunología, endocrinología, gastroenterología, y salud mental. Estos módulos ofrecen formación avanzada en la aplicación clínica de la medicina funcional, permitiendo a los participantes mejorar sus habilidades de diagnóstico y tratamiento con un enfoque integral y basado en la evidencia, con el objetivo de mejorar la salud de sus pacientes.",
+    "ParrafoNutra_SEC7": "Nutrabiotics es un portal centralizado y accesible, dedicado a la medicina funcional, que ofrece un espacio multi-site y multidioma. Su objetivo principal es atraer y captar el interés de los usuarios mediante la presentación de información básica, actuando como un gancho para que se registren y, en el caso de profesionales de la salud, accedan a una zona exclusiva. La página destaca la marca Nutrabiotics, presentando otras marcas de la casa como aliados.",
+    "": "" 
 }
 
 

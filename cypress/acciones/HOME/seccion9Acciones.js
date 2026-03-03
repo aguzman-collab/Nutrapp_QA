@@ -1,6 +1,5 @@
-import nutraelementos from '../elementos/elementos';
-import { normalice } from '../support/commands';
-
+import nutraelementos from '../../elementos/elementos';
+import { normalice } from '../../support/commands';
 
 class seccion9Acciones{
 

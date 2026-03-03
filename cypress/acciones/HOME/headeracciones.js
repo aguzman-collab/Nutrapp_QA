@@ -1,4 +1,5 @@
-import nutraelementos from "../elementos/elementos";
+import nutraelementos from '../../elementos/elementos';
+import { normalice } from '../../support/commands';
 
 class headernutraAcciones{
     clickbotoncerrar (){

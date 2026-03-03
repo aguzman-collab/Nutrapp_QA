@@ -1,5 +1,5 @@
-import nutraelementos from '../elementos/elementos';
-import { normalice } from '../support/commands';
+import nutraelementos from '../../elementos/elementos';
+import { normalice } from '../../support/commands';
 
 
 class seccion10Acciones{
@@ -38,10 +38,7 @@ class seccion10Acciones{
         nutraelementos.obtenerbotonacepto_SEC10().click();
     }
 
-    clickbotonpoliticas_SEC10 (){
-        nutraelementos.obtenerbotonpoliticas_SEC10().click();
-        cy.url('https://s3-amf.s3.us-east-1.amazonaws.com/Terminos+y+condiciones/POLÍTICA+DE+TRATAMIENTO+DE+DATOS+PERSONALES+NUTRAPP+INNOVATIONS+SAS+2025.pdf')
-    }
+    
 
     clickbotonenviar_SEC10 (){
         nutraelementos.obtenerbotonenviar_SEC10().click(); 

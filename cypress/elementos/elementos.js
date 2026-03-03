@@ -101,6 +101,19 @@ class nutraelementos{
     obtenerparrafoAPM_SEC7 = () => cy.get('div[data-id="443d830"] p')
     obtenerparrafoNutrabio_SEC7 = () => cy.get('div[data-id="e26856a"] p')
 
+    ///(NUESTROS EXITOS)
+    obtenertextoNuesExitO_SEC7 = () => cy.get('div[data-id="0ac976c"] h2')
+    obtenerparrrafoNuesExito_SEC7 = () => cy.get('div[data-id="3820241"] p')
+    obtenertextoAliv_SEC7 = () => cy.get('div[data-id="0fefc66"] h2')
+    obtenerparrrafoAliv_SEC7 = () => cy.get('div[data-id="ae59a2a"] p')
+    obtenertextoAMF_SEC7 = () => cy.get('div[data-id="7d7152e"] h2')
+    obtenerparrrafoAMF_SEC7 = () => cy.get('div[data-id="46de9e9"] p')
+    obtenertextoAPM_SEC7 = () => cy.get('div[data-id="2280835"] h2')
+    obtenerparrrafoAPM_SEC7 = () => cy.get('div[data-id="4c1fa07"] p')
+    obtenertextoNutra_SEC7 = () => cy.get('div[data-id="8ef9eb0"] h2')
+    obtenerparrrafoNutra_SEC7 = () => cy.get('div[data-id="8db6ee7"] p')
+
+
     ///(SECCION 8)
     obtenertextoNuesClien_SEC8 = () => cy.get('div[data-id="4746070"] h2[class="elementor-heading-title elementor-size-default"]')
     obtenertextoPregunta_SEC8 = () => cy.get('div[data-id="e45049d"] strong')
@@ -127,5 +140,88 @@ class nutraelementos{
     obtenerbotonacepto_SEC10 = () => cy.get('input[id="datadip2024-1327d4f2-a958-4c45-a7b8-3f752265a4c0"]')
     obtenerbotonpoliticas_SEC10 = () => cy.get('div [class="hs_datadip2024 hs-datadip2024 hs-fieldtype-booleancheckbox field hs-form-field"] a')
     obtenerbotonenviar_SEC10 = () => cy.get('div[class="actions"] input')
-} 
+
+    ///NUESTROS SERVICIOS 
+    obtenertextoNueServi_SEC1 = () => cy.get('div[data-id="f21b884"] h2')
+    obtenerparrafoNueServi_SEC1 = () => cy.get('div[data-id="004d92d"] p')
+
+    ///BLOG (SECCION 1)
+    obtenertextoblog_SEC1 = () => cy.get('div[data-id="2c73204"] h2')
+    obtenerparrafoblog_SEC1 = () => cy.get('div[data-id="622e04e"] p')
+
+    ///BLOG (SECCION 2)
+    obtenerbotonlink1_SEC2 = () => cy.get('div[data-id="8191623"] a[class="elementor-post__thumbnail__link"]') //utilizar EQ del 0 al 2
+    obtenertextolainteli_SEC2 = () => cy.get('div[data-id="a2672b8"] h1')
+    obtenerparrafolainteli_SEC2 = ()  => cy.get('div[data-id="6cae12c"] p')
+    obtenerparrafolaIA_SEC2 = () => cy.get('div[data-id="cc43154"] ul li')
+
+    ///BLOG (SECCION_2LINKS Publicaciones Recientes)
+    obtenerbotonlink1_SEC2 = () => cy.get('div[data-id="52b8ac0"] h3 a').first().click();
+    obtenerbotonlink2_SEC2 = () => cy.get('div[data-id="52b8ac0"] h3 a')
+    obtenerbotonlink3_SEC2 = () => cy.get('div[data-id="52b8ac0"] h3 a').last().click();
+
+    ///BLOG (SECCION_2LINKS NUESTROS SERVICIOS)
+    obtenerbotonlink1LaaS_SEC2 = () => cy.get('div [data-id="c482a04"] h2')
+    obtenerbotonlink2OpeServi_SEC2 = () => cy.get('div [data-id="b85f1b4"] h2')
+    obtenerbotonlink3Saas_SEC2 = () => cy.get('div[data-id="e05f4f4"] h2')
+    obtenerbotonlink4Consult_SEC2 = () => cy.get('div[data-id="4e4611a"] h2')
+
+    ///BLOG (SECCION_2LINKS Imagenes)
+    obtenerbotonlink1imagen_SEC2 = () => cy.get('div[data-id="77671ca"] h3').first().click(); 
+    obtenerbotonlink2imagen_SEC2 = () => cy.get('div[data-id="77671ca"] h3').last().click(); 
+
+    ///BLOG (SECCION 3)
+    obtenertextohabili_SEC3 = () => cy.get('div[data-id="a2672b8"] h1')
+    obtenerparrafolasempre_SEC3 = () => cy.get('div[data-id="6cae12c"] p')
+    obtenerparrafoademas_SEC3 = () => cy.get('div[data-id="cc43154"] p')
+    obtenerparrafo5habili_SEC3 = () => cy.get('div[data-id="4df74ce"] ul li')
+    obtenerparrafo1_5habili_SEC3 = () => cy.get('div[data-id="4df74ce"] li ol li')
+    obtenerparrafo2_5habili_SEC3 = () => cy.get('div[data-id="79a152c"] ul li')
+    obtenerparrafo21_5habili_SEC3 = () => cy.get('div[data-id="79a152c"] ol li')
+
+
+    ///BLOG (SECCION_3LINKS Publicaciones Recientes)
+    obtenerbotonlink1_SEC3 = () => cy.get('div[data-id="52b8ac0"] h3 a').first().click();
+    obtenerbotonlink2_SEC3 = () => cy.get('div[data-id="52b8ac0"] h3 a')
+    obtenerbotonlink3_SEC3 = () => cy.get('div[data-id="52b8ac0"] h3 a').last().click();
+
+    ///BLOG (SECCION_3LINKS NUESTROS SERVICIOS)
+    obtenerbotonlink1LaaS_SEC3 = () => cy.get('div [data-id="c482a04"] h2')
+    obtenerbotonlink2OpeServi_SEC3 = () => cy.get('div [data-id="b85f1b4"] h2')
+    obtenerbotonlink3Saas_SEC3= () => cy.get('div[data-id="e05f4f4"] h2')
+    obtenerbotonlink4Consult_SEC3 = () => cy.get('div[data-id="4e4611a"] h2')
+
+    ///BLOG (SECCION_3LINKS Imagenes)
+    obtenerbotonlink1imagen_SEC3 = () => cy.get('div[data-id="77671ca"] h3').first().click(); 
+    obtenerbotonlink2imagen_SEC3 = () => cy.get('div[data-id="77671ca"] h3').last().click(); 
+
+
+    ///BLOG (SECCION 4)
+    obtenertextotecno_SEC4 = () => cy.get('div[data-id="a2672b8"] h1')
+    obtenerparrafosDesaSoft_SEC4 = () => cy.get('div[data-id="cbeb93c"] p')
+    obtenerparrafos1_SEC4= () => cy.get('div[class="elementor-widget-container"] p').eq(1).click(); 
+    obtenerparrafos2_SEC4= () => cy.get('div[class="elementor-widget-container"] p').eq(2).click();
+    obtenerparrafos3_SEC4= () => cy.get('div[class="elementor-widget-container"] p').eq(3).click();
+    obtenerparrafos4_SEC4= () => cy.get('div[class="elementor-widget-container"] p').eq(4).click();
+    obtenerparrafos5_SEC4= () => cy.get('div[class="elementor-widget-container"] p').eq(5).click();
+    obtenerparrafos6_SEC4= () => cy.get('div[class="elementor-widget-container"] p').eq(6).click();
+
+
+    
+    ///BLOG (SECCION_3LINKS Publicaciones Recientes)
+    obtenerbotonlink1_SEC4 = () => cy.get('div[data-id="52b8ac0"] h3 a').first().click();
+    obtenerbotonlink2_SEC4 = () => cy.get('div[data-id="52b8ac0"] h3 a')
+    obtenerbotonlink3_SEC4 = () => cy.get('div[data-id="52b8ac0"] h3 a').last().click();
+
+    ///BLOG (SECCION_4LINKS NUESTROS SERVICIOS)
+    obtenerbotonlink1LaaS_SEC4 = () => cy.get('div [data-id="c482a04"] h2')
+    obtenerbotonlink2OpeServi_SEC4 = () => cy.get('div [data-id="b85f1b4"] h2')
+    obtenerbotonlink3Saas_SEC4 = () => cy.get('div[data-id="e05f4f4"] h2')
+    obtenerbotonlink4Consult_SEC4 = () => cy.get('div[data-id="4e4611a"] h2')
+
+    ///BLOG (SECCION_4LINKS Imagenes)
+    obtenerbotonlink1imagen_SEC4 = () => cy.get('div[data-id="77671ca"] h3').first().click(); 
+    obtenerbotonlink2imagen_SEC4 = () => cy.get('div[data-id="77671ca"] h3').last().click();
+    } 
+
 export default new nutraelementos();
