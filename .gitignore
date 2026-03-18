@@ -5,8 +5,10 @@ node_modules/
 # Logs
 *.log
 
-# Archivos de configuración del entorno
-.env
+# --- Env / Secrets ---
+# Nunca subas credenciales reales al repo
+.env*
+!.env.example
 
 # Directorios de distribución
 dist/

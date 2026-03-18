@@ -1,47 +1,54 @@
-import nutraelementos from '../../elementos/elementos';
+import {seccion10Home} from '../../elementos/elementos';
 import { normalice } from '../../support/commands';
 
 
 class seccion10Acciones{
     validarcontacta_SEC10() {
-        nutraelementos.obtenertextocontacta_SEC10().should('have.text', 'Contáctanos')
+        cy.fixture("example").then((data) => {
+            seccion10Home.obtenertextocontacta_SEC10().invoke('text').then(text =>
+                {expect(normalice(text)).to.contain(normalice(data.TituloConta10))}) 
+        })
     }
 
     validarparrafocontac_SEC10() {
         cy.fixture("example").then((data) => {
-            nutraelementos.obtenerparrafocontacta_SEC10().invoke('text').then(text =>
+            seccion10Home.obtenerparrafocontacta_SEC10().invoke('text').then(text =>
                 {expect(normalice(text)).to.contain(normalice(data.parrafoContactanos_SEC10))})
         })
     }
 
     validarEscribirnombres_SEC10 = () => {
-        nutraelementos.obtenerEscribirnombres_SEC10().type('Alixon MejorQA');
+        seccion10Home.obtenerEscribirnombres_SEC10().type(Cypress.env('nombre')); 
     }
 
     validarEscribirapellidos_SEC10 = () => {
-        nutraelementos.obtenerEscribirapellidos_SEC10().type('Guzman Garzon');
+        seccion10Home.obtenerEscribirapellidos_SEC10().type(Cypress.env('Apellidos')); 
     }
 
     validarEscribiremail_SEC10 = () => {
-        nutraelementos.obtenerEscribiremail_SEC10().type('ali@gmail.com');
+        seccion10Home.obtenerEscribiremail_SEC10().type(Cypress.env('Email')); 
     }
     
     validarEscribirtelefono_SEC10 = () => {
-        nutraelementos.obtenerEscribirtelefono_SEC10().type('3102456987')
+        seccion10Home.obtenerEscribirtelefono_SEC10().type(Cypress.env('Telefono'));
     }
 
     validarEscribiraqui_SEC10 = () =>{
-        nutraelementos.obtenerEscribiraqui_SEC10().type('Prueba')
+        seccion10Home.obtenerEscribiraqui_SEC10().type(Cypress.env('Escribiraqui')); 
     }
 
     clickbotonacepto_SEC10 (){
-        nutraelementos.obtenerbotonacepto_SEC10().click();
+        seccion10Home.obtenerbotonacepto_SEC10().click();
     }
 
+    clickbotonpoliticas_SEC10 (){
+        seccion10Home.obtenerbotonpoliticas_SEC10().click();
+        cy.url('https://s3-amf.s3.us-east-1.amazonaws.com/Terminos+y+condiciones/POLÍTICA+DE+TRATAMIENTO+DE+DATOS+PERSONALES+NUTRAPP+INNOVATIONS+SAS+2025.pdf')
+    }
     
 
     clickbotonenviar_SEC10 (){
-        nutraelementos.obtenerbotonenviar_SEC10().click(); 
+        seccion10Home.obtenerbotonenviar_SEC10().click(); 
     }
 
 }

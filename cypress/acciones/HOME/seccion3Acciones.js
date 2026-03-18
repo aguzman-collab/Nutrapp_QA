@@ -1,4 +1,4 @@
-import nutraelementos from '../../elementos/elementos';
+import {seccion3Home} from '../../elementos/elementos';
 import { normalice } from '../../support/commands';
 
 
@@ -6,18 +6,20 @@ class seccion3Acciones{
     
 
     validarNuestrosServicios() {
-        nutraelementos.obtenertextoNuesServi().should('have.text','Nuestros servicios')
+        cy.fixture("example").then((data) => {
+        seccion3Home.obtenertextoNuesServi().should('have.text', data.TituloNuestServi3)
+        }) 
     }
 
     validarDesarrolloWeb(){
         cy.fixture("example").then((data) => {
-            nutraelementos.obtenertextosdesarroweb().invoke('text').then(text => 
+            seccion3Home.obtenertextosdesarroweb().invoke('text').then(text => 
                 {expect(normalice(text)).to.contain(normalice(data.ParrafoN1_3))})
         })
     }
 
     clickbotonvermas(){
-        nutraelementos.obtenerbotonvermas().click();
+        seccion3Home.obtenerbotonvermas().click();
         cy.url('href="https://nutrapp.com.co/index.php/nuestros-servicios/"')
     }
 }
