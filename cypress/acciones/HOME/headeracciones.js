@@ -1,23 +1,22 @@
-import nutraelementos from '../../elementos/elementos';
-import { normalice } from '../../support/commands';
+import { seccion1HeaderFooter } from '../../elementos/elementos';
 
 class headernutraAcciones{
     clickbotoncerrar (){
-        nutraelementos.obtenerbotoncerrar().click();
+        seccion1HeaderFooter.obtenerbotoncerrar().click();
     }
     
     clickbotonservicios (){
-        nutraelementos.obtenerbotonservicios().click();
+        seccion1HeaderFooter.obtenerbotonservicios().click();
         cy.url('https://nutrapp.com.co/index.php/nuestros-servicios/')
     }
 
     clickbotonblog (){
-        nutraelementos.obtenerbotonblog().click();
+        seccion1HeaderFooter.obtenerbotonblog().click();
         cy.url('https://nutrapp.com.co/index.php/blog/')
     }
 
     clickbotoncontactanos (){
-        nutraelementos.obtenerbotoncontactanos().click();
+        seccion1HeaderFooter.obtenerbotoncontactanos().click();
         cy.url('https://nutrapp.com.co/#contact')
     }
 

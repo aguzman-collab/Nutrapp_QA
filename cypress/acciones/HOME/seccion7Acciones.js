@@ -1,65 +1,76 @@
-import nutraelementos from '../../elementos/elementos';
+import {seccion7Home} from '../../elementos/elementos';
 import { normalice } from '../../support/commands';
 
 
 class seccion7Acciones{
 
     validarNuesExit7() {
-        nutraelementos.obtenertextoNuesServi_SEC7().should('have.text', 'Nuestros éxitos')
+        cy.fixture("example").then((data) => {
+        seccion7Home.obtenertextoNuesExito_SEC7().should('have.text', data.tituloNuesExito701)
+        })
     }
 
-    validarNuesServiparrafo_SEC7() {
+    validarNuesServiparrafo_SEC7(){
         cy.fixture("example").then((data) => {
-            nutraelementos.obtenertextoNuesServiparrafo_SEC7().invoke('text').then(text => 
+            seccion7Home.obtenertextoNuesServiparrafo_SEC71().invoke('text').then(text => 
                 {expect(normalice(text)).to.contain(normalice(data.Parrafoparrafo_SEC7))})
         })
     }
 
     clickbotonvermas_SEC7 (){
-        nutraelementos.obtenerbotonvermas_SEC7().click();
+        seccion7Home.obtenerbotonvermas_SEC71().invoke('removeAttr', 'target').click();
         cy.url('https://nutrapp.com.co/index.php/nuestros-exitos/')
+        cy.go('back')
     }
 
     validarAlivia7() {
-        nutraelementos.obtenertextoAlivia_SEC7().should('have.text', 'Alivia')
+        cy.fixture("example").then((data) => {
+        seccion7Home.obtenertextoAlivia_SEC71().should('have.text', data.TituloAliv701)
+        })
     }
 
     ValidarAMF7(){
-        nutraelementos.obtenertextoAMF_SEC7().should('have.text', 'AMF')
+        cy.fixture("example").then((data) => {
+        seccion7Home.obtenertextoAMF_SEC71().should('have.text', data.TituloAMF701)
+        })
     }
 
     ValidarAPM7(){
-       nutraelementos.obtenertextoAPM_SEC7().should('have.text', 'APM')
+        cy.fixture("example").then((data) => {
+       seccion7Home.obtenertextoAPM_SEC71().should('have.text', data.TituloAPM701)
+        })// texto quemado
     }
 
     validarNutrabio(){
-      nutraelementos.obtenertextoNutrabio_SEC7().should('have.text', 'Nutrabiotics')
+        cy.fixture("example").then((data) => {
+       seccion7Home.obtenertextoNutrabio_SEC71().should('have.text', data.TituloNutra701)
+        })// texto quemado
     }
 
     validarAliviaparrafo_SEC7() {
         cy.fixture("example").then((data) => {
-            nutraelementos.obtenerparrafoAli_SEC7().invoke('text').then(text => 
+            seccion7Home.obtenerparrafoAli_SEC71().invoke('text').then(text => 
                 {expect(normalice(text)).to.contain(normalice(data.ParrafoAli_SEC7))})
         })
     }
 
     validarAmfparrafo_SEC7() {
         cy.fixture("example").then((data) => {
-            nutraelementos.obtenerparrafoAMF_SEC7().invoke('text').then(text => 
+            seccion7Home.obtenerparrafoAMF_SEC71().invoke('text').then(text => 
                 {expect(normalice(text)).to.contain(normalice(data.ParrafoAmf_SEC7))})
         })
     }
 
     validarApmparrafo_SEC7() {
         cy.fixture("example").then((data) => {
-            nutraelementos.obtenerparrafoAPM_SEC7().invoke('text').then(text => 
+            seccion7Home.obtenerparrafoAPM_SEC71().invoke('text').then(text => 
                 {expect(normalice(text)).to.contain(normalice(data.ParrafoApm_SEC7))})
         })
     }
 
     validarNutrabioparrafo_SEC7() {
         cy.fixture("example").then((data) => {
-            nutraelementos.obtenerparrafoNutrabio_SEC7().invoke('text').then(text => 
+            seccion7Home.obtenerparrafoNutrabio_SEC71().invoke('text').then(text => 
                 {expect(normalice(text)).to.contain(normalice(data.ParrafoNutrabio_SEC7))})
         })
     }

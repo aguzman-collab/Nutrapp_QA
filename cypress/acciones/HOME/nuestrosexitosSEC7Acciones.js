@@ -1,62 +1,71 @@
-import nutraelementos from '../../elementos/elementos';
+import {seccionNutraExitoHome} from '../../elementos/elementos';
 import { normalice } from '../../support/commands';
 
 
 class NuesExito_SEC7Acciones{
-    validartextoNuesExitO_SEC7() {
-        nutraelementos.obtenertextoNuesExitO_SEC7().should('have.text', 'Nuestros éxitos')
-    }  
 
-    validarparrrafoNuesExito_SEC7() {
+    validartextoNuesExitO_SEC7_2() {
         cy.fixture("example").then((data) => {
-            nutraelementos.obtenerparrrafoNuesExito_SEC7().invoke('text').then(text => 
+        seccionNutraExitoHome.obtenertextoNuesExitO_SEC7_2().should('have.text', data.TituloNuestsExi) 
+        })
+    }
+
+    validarparrrafoNuesExito_SEC7_2() {
+        cy.fixture("example").then((data) => {
+            seccionNutraExitoHome.obtenerparrrafoNuesExito_SEC7_2().invoke('text').then(text => 
                 {expect(normalice(text)).to.contain(normalice(data.ParrrafoNuesExito_SEC7))})
         })
     }
 
-    validartextoAliv_SEC7() {
-        nutraelementos.obtenertextoAliv_SEC7().should('have.text', 'Alivia')
+    validartextoAliv_SEC7_2() {
+        cy.fixture("example").then((data) => {
+        seccionNutraExitoHome.obtenertextoAliv_SEC7_2().should('have.text', data.TituloAliv)
+        }) 
     } 
 
-    validarparrrafoAliv_SEC7() {
+    validarparrrafoAliv_SEC7_2() {
         cy.fixture("example").then((data) => {
-            nutraelementos.obtenerparrrafoAliv_SEC7().invoke('text').then(text => 
+            seccionNutraExitoHome.obtenerparrrafoAliv_SEC7_2().invoke('text').then(text => 
                 {expect(normalice(text)).to.contain(normalice(data.ParrrafoAliv_SEC7))})
         })
     }
 
-    validartextoAMF_SEC7() {
-        nutraelementos.obtenertextoAMF_SEC7().should('have.text', 'AMF')
+    validartextoAMF_SEC7_2() {
+        cy.fixture("example").then((data) => {
+            seccionNutraExitoHome.obtenertextoAMF_SEC7_2().should('have.text', data.TituloAMF)
+        })    
     } 
 
-    validarparrrafoAMF_SEC7() {
+    validarparrrafoAMF_SEC7_2() {
         cy.fixture("example").then((data) => {
-            nutraelementos.obtenerparrrafoAMF_SEC7().invoke('text').then(text => 
+            seccionNutraExitoHome.obtenerparrrafoAMF_SEC7_2().invoke('text').then(text => 
                 {expect(normalice(text)).to.contain(normalice(data.ParrrafoAMF_SEC7))})
         })
     }
 
-   validartextoAPM_SEC7() {
+   validartextoAPM_SEC7_2() {
         cy.fixture("example").then((data) => {
-            nutraelementos.obtenertextoAPM_SEC7().invoke('text').then(text => 
+            seccionNutraExitoHome.obtenertextoAPM_SEC7_2().invoke('text').then(text => 
                 {expect(normalice(text)).to.contain(normalice(data.TextoAPM_SEC7))})
         })
     }
 
-    validarparrrafoAPM_SEC7() {
+    validarparrrafoAPM_SEC7_2() {
         cy.fixture("example").then((data) => {
-            nutraelementos.obtenerparrrafoAPM_SEC7().invoke('text').then(text => 
+            seccionNutraExitoHome.obtenerparrrafoAPM_SEC7_2().invoke('text').then(text => 
                 {expect(normalice(text)).to.contain(normalice(data.ParrrafoAPM_SEC7))})
         })
     }
 
-    validartextoNutra_SEC7() {
-        nutraelementos.obtenertextoNutra_SEC7().should('have.text', 'Nutrabiotics')
+    validartextoNutra_SEC7_2() {
+        cy.fixture("example").then((data) => {
+        seccionNutraExitoHome.obtenertextoNutra_SEC7_2().should('have.text', data.TituloNutra) 
+        })
     } 
 
-    validarparrrafoNutra_SEC7() {
+    validarparrrafoNutra_SEC7_2() {
         cy.fixture("example").then((data) => {
-            nutraelementos.obtenerparrrafoNutra_SEC7().invoke('text').then(text => 
+            seccionNutraExitoHome.obtenerparrrafoNutra_SEC7_2().invoke('text').then(text => 
                 {expect(normalice(text)).to.contain(normalice(data.ParrrafoNutra_SEC7))})
         })
     }

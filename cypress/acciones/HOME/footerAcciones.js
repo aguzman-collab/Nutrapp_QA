@@ -1,42 +1,42 @@
-import nutraelementos from '../../elementos/elementos';
-import { normalice } from '../../support/commands';
+import { seccion1HeaderFooter } from '../../elementos/elementos';
 
 class footernutraAcciones{ ///Footer Validar botones y url 
   
     clickbotonserviciosfo (){
-        nutraelementos.obtenerbotonserviciosfo().click();
+        seccion1HeaderFooter.obtenerbotonserviciosfo().click();
         cy.url('https://nutrapp.com.co/index.php/nuestros-servicios/')
     }
 
     clickbotonblogfo (){
-        nutraelementos.obtenerbotonblogfo().click();
+        seccion1HeaderFooter.obtenerbotonblogfo().click();
         cy.url('https://nutrapp.com.co/index.php/blog/')
     }
 
     clickbotoncontactanosfo (){
-        nutraelementos.obtenerbotoncontactanosfo().click();
+        seccion1HeaderFooter.obtenerbotoncontactanosfo().click();
         cy.url('https://nutrapp.com.co/#contact')
     }
 
 
     ///Validar textos 
     validarnumero() {
-        nutraelementos.obtenertextotelefono().should('have.text', '+57 321 2738151')
+        seccion1HeaderFooter.obtenertextotelefono().should('have.text', '+57 321 2738151')
     }
 
     validarcorreo() {
-        nutraelementos.obtenertextocorreo().should('have.text', 'eventos@nutrapp.com.co')
+        seccion1HeaderFooter.obtenertextocorreo().should('have.text', 'eventos@nutrapp.com.co')
     }
 
     ///Validar URL T&C Y POLITICAS 
 
     clickbotontyc (){
-        nutraelementos.obtenerbotontyC().click();
+        seccion1HeaderFooter.obtenerbotontyC().click();
         cy.url('https://nutrapp.com.co/wp-content/uploads/2025/01/TERMINOS-Y-CONDICIONES-NUTRAPP-INNOVATIONS-SAS-1.docx.pdf')
+    
     }
 
     clickbotonpoliticas (){
-        nutraelementos.obtenerbotonpoliticas().click();
+        seccion1HeaderFooter.obtenerbotonpoliticas().click();
         cy.url('https://nutrapp.com.co/wp-content/uploads/2025/01/POLITICA-DE-PROTECCION-DE-DATOS-PERSONALES-NUTRAPP-2025.pdf')
     }
 

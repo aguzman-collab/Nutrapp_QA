@@ -1,4 +1,4 @@
-import nutraelementos from '../../elementos/elementos';
+import {seccion2Home} from '../../elementos/elementos';
 import { normalice } from '../../support/commands';
 
 class seccion2Acciones{
@@ -6,28 +6,28 @@ class seccion2Acciones{
     
     validarnuestrocompromiso(){
         cy.fixture("example").then((data) => {
-            nutraelementos.obtenertextocompromiso().invoke('text').then(text => 
+            seccion2Home.obtenertextocompromiso().first().click().invoke('text').then(text => 
                 {expect(normalice(text)).to.contain(normalice(data.tituloPrincipal));});
         });
     }
 
     validarsitiosweb(){
         cy.fixture("example").then((data) => {
-            nutraelementos.obtenertextositiosweb().invoke('text').then(text => 
+            seccion2Home.obtenertextositiosweb().invoke('text').then(text => 
                 {expect(normalice(text)).to.contain(normalice(data.ParrafoPrincipal));});
         });
     }
 
     validarcuadroN1(){
         cy.fixture("example").then((data) =>{
-            nutraelementos.obtenertextocuadro1().invoke('text').then(text => 
+            seccion2Home.obtenertextocuadro1().invoke('text').then(text => 
                 {expect(normalice(text)).to.contain(normalice(data.Parrafo1));});
         })
     }
 
     validarcuadroN2(){
         cy.fixture("example").then((data) => {
-            nutraelementos.obtenertextocuadro2().invoke('text').then(text => 
+            seccion2Home.obtenertextocuadro2().invoke('text').then(text => 
                 {expect(normalice(text)).to.contain(normalice(data.Parrafo2));});
         });
     }
@@ -35,13 +35,13 @@ class seccion2Acciones{
 
     validarcuadroN3(){
         cy.fixture("example").then((data) => {
-            nutraelementos.obtenertextocuadro3().invoke('text').then(text => 
+            seccion2Home.obtenertextocuadro3().invoke('text').then(text => 
                 {expect(normalice(text)).to.contain(normalice(data.Parrafo3));});
         });
     }
 
     clickbotonconocemas(){
-        nutraelementos.obtenerbotonconocemas().click();
+        seccion2Home.obtenerbotonconocemas().click();
         cy.url('href="#servicios"')
     }
 
