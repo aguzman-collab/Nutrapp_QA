@@ -1,8 +1,7 @@
 const { defineConfig } = require('cypress');
-require('dotenv').config({ path: '.env.local' });
 
 module.exports = defineConfig({
-  reporter: 'cypress-mochawesome-reporter',
+  reporter: 'mochawesome',
   reporterOptions: {
     reportDir: 'cypress/reports/.jsons',
     overwrite: false,
@@ -11,7 +10,6 @@ module.exports = defineConfig({
   },
   e2e: {
     setupNodeEvents(on, config) {
-      require('cypress-mochawesome-reporter/plugin')(on);
       return config;
     }
   }

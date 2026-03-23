@@ -1,29 +1,51 @@
-const puppeteer = require('puppeteer-core');
+const puppeteer = require('puppeteer');
 const path = require('path');
 
 async function generatePDF() {
   const browser = await puppeteer.launch({
-    executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe'  // Ruta de Chrome
+    headless: true
   });
+
   const page = await browser.newPage();
 
-  // Ruta al HTML generado
-  const reportPath = `file://${path.resolve('cypress/reports/.jsons/index.html').replace(/\\/g, '/')}`;
+  const reportPath = `file://${path
+    .resolve('cypress/reports/index.html')
+    .replace(/\\/g, '/')}`;
 
-  // Cargar la página HTML
-  await page.goto(reportPath, { waitUntil: 'networkidle0' });
-
-  // Esperar 30 segundos con setTimeout
-  await new Promise(resolve => setTimeout(resolve, 30000));
-
-  // Generar el PDF
-  await page.pdf({
-    path: 'cypress/reports/report.pdf',
-    format: 'A4',
-    printBackground: true
+  await page.goto(reportPath, {
+    waitUntil: 'domcontentloaded'
   });
 
-  // Cerrar el navegador
+  // 🔥 CLAVE: esperar a que el contenido REAL exista
+  await page.waitForFunction(() => {
+    const report = document.querySelector('#report');
+    return report && report.innerText.length > 500;
+  }, { timeout: 60000 });
+
+  // 🔥 Espera adicional para React render completo
+  await new Promise(r => setTimeout(r, 3000));
+
+  // 🔥 FORZAR repaint (esto mata la página en blanco)
+  await page.evaluate(() => {
+    window.scrollBy(0, 100);
+    window.scrollBy(0, -100);
+  });
+
+  // DEBUG
+  await page.screenshot({
+    path: 'cypress/reports/debug.png',
+    fullPage: true
+  });
+
+  // PDF
+  await page.pdf({
+  path: `cypress/reports/report-${Date.now()}.pdf`,
+  format: 'A4',
+  printBackground: true,
+  preferCSSPageSize: true,
+  pageRanges: '2-' // 👈 ESTA LÍNEA ES LA CLAVE
+  });
+
   await browser.close();
 
   console.log('✅ PDF generado correctamente');
