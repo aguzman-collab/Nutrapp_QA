@@ -12,13 +12,13 @@
     "hasOther": false,
     "skipped": 0,
     "hasSkipped": false,
-    "start": "2026-03-23T20:32:34.190Z",
-    "end": "2026-03-23T20:35:19.871Z",
-    "duration": 165681
+    "start": "2026-03-26T16:12:31.213Z",
+    "end": "2026-03-26T16:15:28.736Z",
+    "duration": 177523
   },
   "results": [
     {
-      "uuid": "2bacb46c-7c22-4e38-af50-b6e5a05c1df3",
+      "uuid": "999a2000-404e-447b-a080-ab278709637c",
       "title": "",
       "fullFile": "cypress\\e2e\\nutraapp.cy.js",
       "file": "cypress\\e2e\\nutraapp.cy.js",
@@ -29,7 +29,7 @@
           "title": "SECCIÓN 1 - FOOTER",
           "fullTitle": "SECCIÓN 1 - FOOTER",
           "timedOut": null,
-          "duration": 16196,
+          "duration": 20629,
           "state": "passed",
           "speed": "slow",
           "pass": true,
@@ -38,15 +38,15 @@
           "context": null,
           "code": "_url.default.urlBase();\n_headeracciones.default.clickbotoncerrar();\n_footerAcciones.default.clickbotonserviciosfo();\n_footerAcciones.default.clickbotonblogfo();\n_footerAcciones.default.clickbotoncontactanosfo();\n_headeracciones.default.clickbotoncerrar();\n_footerAcciones.default.validarnumero();\n_footerAcciones.default.validarcorreo();\n_footerAcciones.default.clickbotontyc();\n_footerAcciones.default.clickbotonpoliticas();",
           "err": {},
-          "uuid": "1be7e2f8-071c-4158-a12d-ff65ea38d8c4",
-          "parentUUID": "2bacb46c-7c22-4e38-af50-b6e5a05c1df3",
+          "uuid": "f6717673-bd8c-437f-951d-9ef71072eeef",
+          "parentUUID": "999a2000-404e-447b-a080-ab278709637c",
           "isHook": false,
           "skipped": false
         }
       ],
       "suites": [
         {
-          "uuid": "032afeb9-fa3e-4822-a87d-c7c7bb948708",
+          "uuid": "090f9302-ca45-4e44-8d9e-e5af831ef5d5",
           "title": "Automatizaciones - Sección 1",
           "fullFile": "",
           "file": "",
@@ -57,7 +57,7 @@
               "title": "SECCIÓN 1 - HEADER",
               "fullTitle": "Automatizaciones - Sección 1 SECCIÓN 1 - HEADER",
               "timedOut": null,
-              "duration": 10908,
+              "duration": 12138,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -66,26 +66,26 @@
               "context": null,
               "code": "_url.default.urlBase();\n_headeracciones.default.clickbotoncerrar();\n_headeracciones.default.clickbotonservicios();\n_headeracciones.default.clickbotonblog();\n_headeracciones.default.clickbotoncontactanos();\n_headeracciones.default.clickbotoncerrar();",
               "err": {},
-              "uuid": "7df7d5e0-5fde-4e51-b0e8-983f8ff0a5ec",
-              "parentUUID": "032afeb9-fa3e-4822-a87d-c7c7bb948708",
+              "uuid": "10659e42-f96e-4c3f-9159-0686155b95fd",
+              "parentUUID": "090f9302-ca45-4e44-8d9e-e5af831ef5d5",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "7df7d5e0-5fde-4e51-b0e8-983f8ff0a5ec"
+            "10659e42-f96e-4c3f-9159-0686155b95fd"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 10908,
+          "duration": 12138,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "27a932d6-995f-4b10-a7da-3f5a3dffe80a",
+          "uuid": "1ea47942-fdaa-4f60-bd44-f7868a328cc5",
           "title": "Automatizaciones - Sección 1 - BLOG",
           "fullFile": "",
           "file": "",
@@ -96,7 +96,7 @@
               "title": "SECCIÓN 1 - BLOG",
               "fullTitle": "Automatizaciones - Sección 1 - BLOG SECCIÓN 1 - BLOG",
               "timedOut": null,
-              "duration": 1820,
+              "duration": 2061,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -105,26 +105,26 @@
               "context": null,
               "code": "_url.default.urlBlog();\n_seccion1BAcciones.default.validarblog_SEC1();\n_seccion1BAcciones.default.validarparrafoblog_SEC1();\n_seccion1BAcciones.default.validarparrafoblog_SEC1();",
               "err": {},
-              "uuid": "3367f510-18f6-4da7-b6e5-183e561124d8",
-              "parentUUID": "27a932d6-995f-4b10-a7da-3f5a3dffe80a",
+              "uuid": "def19e3b-2917-4bc3-8906-0029c2be6693",
+              "parentUUID": "1ea47942-fdaa-4f60-bd44-f7868a328cc5",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "3367f510-18f6-4da7-b6e5-183e561124d8"
+            "def19e3b-2917-4bc3-8906-0029c2be6693"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1820,
+          "duration": 2061,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "24486887-750e-4d41-ae46-857b0308cd24",
+          "uuid": "b1a0b5a3-7071-4029-813a-7950848fa886",
           "title": "Automatizaciones - Sección 2 - BLOG",
           "fullFile": "",
           "file": "",
@@ -135,7 +135,7 @@
               "title": "SECCIÓN 2 - BLOG",
               "fullTitle": "Automatizaciones - Sección 2 - BLOG SECCIÓN 2 - BLOG",
               "timedOut": null,
-              "duration": 2659,
+              "duration": 2952,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -144,26 +144,26 @@
               "context": null,
               "code": "_url.default.urlSEC2_1Blog();\n_seccion2BAcciones.default.validartextolainteli_SEC2();\n_seccion2BAcciones.default.validarparrafolainteli_SEC2();\n_seccion2BAcciones.default.validarparrafolaIA_SEC2();",
               "err": {},
-              "uuid": "34740dbf-635d-4465-b51d-8fc257d7d1eb",
-              "parentUUID": "24486887-750e-4d41-ae46-857b0308cd24",
+              "uuid": "bc898798-e2e7-457a-b2fe-6b500beda6db",
+              "parentUUID": "b1a0b5a3-7071-4029-813a-7950848fa886",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "34740dbf-635d-4465-b51d-8fc257d7d1eb"
+            "bc898798-e2e7-457a-b2fe-6b500beda6db"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 2659,
+          "duration": 2952,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "2c5598c0-c7a9-49c2-bbc0-671a9901287b",
+          "uuid": "956a9d07-277b-48d5-ad94-eece6c1c65a8",
           "title": "Automatizaciones - Sección 2_1 - BLOG",
           "fullFile": "",
           "file": "",
@@ -174,7 +174,7 @@
               "title": "SECCIÓNlinks2_1- BLOG_LINK",
               "fullTitle": "Automatizaciones - Sección 2_1 - BLOG SECCIÓNlinks2_1- BLOG_LINK",
               "timedOut": null,
-              "duration": 22720,
+              "duration": 25520,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -183,26 +183,26 @@
               "context": null,
               "code": "_url.default.urlSEC2_1Blog();\n_seccion2BlinkAcciones.default.clickbotonlink1_SEC2();\n_seccion2BlinkAcciones.default.volverPaginaAnterior();\n_seccion2BlinkAcciones.default.clickbotonlink2_SEC2();\n_seccion2BlinkAcciones.default.volverPaginaAnterior();\n_seccion2BlinkAcciones.default.clickbotonlink3_SEC2();\n///Validacion link \n///NUESTROS SERVICIOS\n_url.default.urlSEC2_1Blog();\n_seccion2BlinkAcciones.default.clickbotonlink1LaaS_SEC2();\n_seccion2BlinkAcciones.default.clickbotonlink2OpeServi_SEC2();\n_seccion2BlinkAcciones.default.clickbotonlink3Saas_SEC2();\n_seccion2BlinkAcciones.default.clickbotonlink4Consult_SEC2();\n///Validacion link \n///Imagenes\n_url.default.urlSEC2_1Blog();\n_seccion2BlinkAcciones.default.clickbotonlink1imagenes_SEC2();\n_seccion2BlinkAcciones.default.volverPaginaAnterior();\n_seccion2BlinkAcciones.default.clickbotonlink2imagenes_SEC2();",
               "err": {},
-              "uuid": "5cd2deef-ba27-41d3-b77f-2536b43e0d4b",
-              "parentUUID": "2c5598c0-c7a9-49c2-bbc0-671a9901287b",
+              "uuid": "87f0137b-eaaf-41cb-8ef5-cd249beffcb2",
+              "parentUUID": "956a9d07-277b-48d5-ad94-eece6c1c65a8",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "5cd2deef-ba27-41d3-b77f-2536b43e0d4b"
+            "87f0137b-eaaf-41cb-8ef5-cd249beffcb2"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 22720,
+          "duration": 25520,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "7f5f131d-3d7a-4f48-ba53-7407e47ae857",
+          "uuid": "66f208ef-b052-4abf-ad81-8485e8f3c03f",
           "title": "Automatizaciones - Sección 3 - BLOG",
           "fullFile": "",
           "file": "",
@@ -213,7 +213,7 @@
               "title": "SECCIÓN 3 - BLOG",
               "fullTitle": "Automatizaciones - Sección 3 - BLOG SECCIÓN 3 - BLOG",
               "timedOut": null,
-              "duration": 1925,
+              "duration": 2068,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -222,26 +222,26 @@
               "context": null,
               "code": "_url.default.urlSEC3_Blog();\n_seccion3BAcciones.default.validartextohabili_SEC3();\n_seccion3BAcciones.default.validarparrafolasempre_SEC3();\n_seccion3BAcciones.default.validarparrafoademas_SEC3();\n_seccion3BAcciones.default.validarparrafo5habili_SEC3();\n_seccion3BAcciones.default.validarparrafo1_5habili_SEC3();\n_seccion3BAcciones.default.validarparrafo2_5habili_SEC3();\n_seccion3BAcciones.default.validarparrafo21_5habili_SEC3();",
               "err": {},
-              "uuid": "a135793e-9728-4c89-9d04-fb71da37e1f5",
-              "parentUUID": "7f5f131d-3d7a-4f48-ba53-7407e47ae857",
+              "uuid": "77f31391-592d-4de0-b3b4-2e87237e06ce",
+              "parentUUID": "66f208ef-b052-4abf-ad81-8485e8f3c03f",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "a135793e-9728-4c89-9d04-fb71da37e1f5"
+            "77f31391-592d-4de0-b3b4-2e87237e06ce"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1925,
+          "duration": 2068,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "4520a78c-01f3-436c-b922-c040c65c97a6",
+          "uuid": "63154047-9feb-430f-8f70-675a33465317",
           "title": "Automatizaciones - Sección 3_1 - BLOG",
           "fullFile": "",
           "file": "",
@@ -252,7 +252,7 @@
               "title": "SECCIÓNlinks3_1- BLOG_LINK",
               "fullTitle": "Automatizaciones - Sección 3_1 - BLOG SECCIÓNlinks3_1- BLOG_LINK",
               "timedOut": null,
-              "duration": 20529,
+              "duration": 18480,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -261,26 +261,26 @@
               "context": null,
               "code": "_url.default.urlSEC3_Blog();\n_seccion3BlinkAcciones.default.clickbotonlink1_SEC3();\n_seccion3BlinkAcciones.default.clickbotonlink2_SEC3();\n_seccion3BlinkAcciones.default.clickbotonlink3_SEC3();\n///Validacion link \n///NUESTROS SERVICIOS\n_url.default.urlSEC3_Blog();\n_seccion3BlinkAcciones.default.clickbotonlink1LaaS_SEC3();\n_seccion3BlinkAcciones.default.clickbotonlink2OpeServi_SEC3();\n_seccion3BlinkAcciones.default.clickbotonlink3Saas_SEC3();\n_seccion3BlinkAcciones.default.clickbotonlink4Consult_SEC3();\n///Validacion link \n///Imagenes\n_url.default.urlSEC3_Blog();\n_seccion3BlinkAcciones.default.clickbotonlink1imagenes_SEC3();\n_seccion2BlinkAcciones.default.volverPaginaAnterior();\n_seccion3BlinkAcciones.default.clickbotonlink2imagenes_SEC3();",
               "err": {},
-              "uuid": "cc84fd50-20cf-4dac-8115-16dcbb7d140f",
-              "parentUUID": "4520a78c-01f3-436c-b922-c040c65c97a6",
+              "uuid": "191d76ab-534b-47d9-9076-e85b18c972d0",
+              "parentUUID": "63154047-9feb-430f-8f70-675a33465317",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "cc84fd50-20cf-4dac-8115-16dcbb7d140f"
+            "191d76ab-534b-47d9-9076-e85b18c972d0"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 20529,
+          "duration": 18480,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "7a7d0090-ed3e-43a2-a8f7-e4157b20a868",
+          "uuid": "682c9977-8f56-428e-9c3a-548e47147735",
           "title": "Automatizaciones - Sección 4 - BLOG",
           "fullFile": "",
           "file": "",
@@ -291,7 +291,7 @@
               "title": "SECCIÓN 4 - BLOG",
               "fullTitle": "Automatizaciones - Sección 4 - BLOG SECCIÓN 4 - BLOG",
               "timedOut": null,
-              "duration": 2199,
+              "duration": 1992,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -300,26 +300,26 @@
               "context": null,
               "code": "_url.default.urlSEC4_Blog();\n_seccion4BAcciones.default.validartextotecno_SEC4();\n_seccion4BAcciones.default.validarparrafosDesaSoft_SEC4();\n_seccion4BAcciones.default.validarparrafos1_SEC4();\n_seccion4BAcciones.default.validarparrafos2_SEC4();\n_seccion4BAcciones.default.validarparrafos3_SEC4();\n_seccion4BAcciones.default.validarparrafos4_SEC4();\n_seccion4BAcciones.default.validarparrafos5_SEC4();\n_seccion4BAcciones.default.validarparrafos6_SEC4();",
               "err": {},
-              "uuid": "fc15cbbf-b8e0-4836-97bc-febbb6ac829f",
-              "parentUUID": "7a7d0090-ed3e-43a2-a8f7-e4157b20a868",
+              "uuid": "244d3b69-0b3c-431a-8ed7-dff5afedf632",
+              "parentUUID": "682c9977-8f56-428e-9c3a-548e47147735",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "fc15cbbf-b8e0-4836-97bc-febbb6ac829f"
+            "244d3b69-0b3c-431a-8ed7-dff5afedf632"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 2199,
+          "duration": 1992,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "d9c21f9c-5c6b-4168-9eaf-d27fe50a36bf",
+          "uuid": "35625dc9-c9f8-4038-8fa1-b0a5265f6d4e",
           "title": "Automatizaciones - Sección 4_1 - BLOG",
           "fullFile": "",
           "file": "",
@@ -330,7 +330,7 @@
               "title": "SECCIÓNlinks4_1- BLOG_LINK",
               "fullTitle": "Automatizaciones - Sección 4_1 - BLOG SECCIÓNlinks4_1- BLOG_LINK",
               "timedOut": null,
-              "duration": 17700,
+              "duration": 18579,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -339,26 +339,26 @@
               "context": null,
               "code": "_url.default.urlSEC4_Blog();\n_seccion4BlinkAcciones.default.clickbotonlink1_SEC4();\n_seccion4BlinkAcciones.default.clickbotonlink2_SEC4();\n_seccion4BlinkAcciones.default.clickbotonlink3_SEC4();\n///Validacion link \n///NUESTROS SERVICIOS\n_url.default.urlSEC4_Blog();\n_seccion4BlinkAcciones.default.clickbotonlink1LaaS_SEC4();\n_seccion4BlinkAcciones.default.clickbotonlink2OpeServi_SEC4();\n_seccion4BlinkAcciones.default.clickbotonlink3Saas_SEC4();\n_seccion4BlinkAcciones.default.clickbotonlink4Consult_SEC4();\n///Validacion link \n///Imagenes\n_url.default.urlSEC4_Blog();\n_seccion4BlinkAcciones.default.clickbotonlink1imagenes_SEC4();\n_seccion2BlinkAcciones.default.volverPaginaAnterior();\n_seccion4BlinkAcciones.default.clickbotonlink2imagenes_SEC4();",
               "err": {},
-              "uuid": "392ad827-5919-4e59-b52f-69e9ce66b910",
-              "parentUUID": "d9c21f9c-5c6b-4168-9eaf-d27fe50a36bf",
+              "uuid": "6838b0f5-1125-418f-b1d5-abe6b8d48d95",
+              "parentUUID": "35625dc9-c9f8-4038-8fa1-b0a5265f6d4e",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "392ad827-5919-4e59-b52f-69e9ce66b910"
+            "6838b0f5-1125-418f-b1d5-abe6b8d48d95"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 17700,
+          "duration": 18579,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "60870c4d-3f87-4702-82f7-95226ad2845f",
+          "uuid": "f2c05aa9-dfca-4366-b8ed-c4104c5a7966",
           "title": "Automatizaciones - Sección 1 - NueServi",
           "fullFile": "",
           "file": "",
@@ -369,7 +369,7 @@
               "title": "SECCIÓN 1 - Nuestros servicios",
               "fullTitle": "Automatizaciones - Sección 1 - NueServi SECCIÓN 1 - Nuestros servicios",
               "timedOut": null,
-              "duration": 2397,
+              "duration": 2859,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -378,26 +378,26 @@
               "context": null,
               "code": "_url.default.urlNuestroExito();\n_seccion1Acciones.default.validarNueServi_SEC1();\n_seccion1Acciones.default.validarparrafoNueServi_SEC1();",
               "err": {},
-              "uuid": "3718935a-e93e-46b1-83f1-a00db56506d8",
-              "parentUUID": "60870c4d-3f87-4702-82f7-95226ad2845f",
+              "uuid": "84bcfa6c-c7bc-49fc-be25-feb7aba45fbb",
+              "parentUUID": "f2c05aa9-dfca-4366-b8ed-c4104c5a7966",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "3718935a-e93e-46b1-83f1-a00db56506d8"
+            "84bcfa6c-c7bc-49fc-be25-feb7aba45fbb"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 2397,
+          "duration": 2859,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "0be8764b-d479-4c40-b598-4d98526cdfa1",
+          "uuid": "c1c1252c-71c2-4967-b78e-d9b12cdd691a",
           "title": "Automatizaciones - Sección 2",
           "fullFile": "",
           "file": "",
@@ -408,35 +408,35 @@
               "title": "SECCIÓN 2 - Nuestro compromiso",
               "fullTitle": "Automatizaciones - Sección 2 SECCIÓN 2 - Nuestro compromiso",
               "timedOut": null,
-              "duration": 4988,
+              "duration": 5288,
               "state": "passed",
-              "speed": "fast",
+              "speed": "medium",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "_url.default.urlBase();\n_headeracciones.default.clickbotoncerrar();\n_seccion2Acciones.default.validarnuestrocompromiso();\n_seccion2Acciones.default.validarsitiosweb();\n_seccion2Acciones.default.validarcuadroN1();\n_seccion2Acciones.default.validarcuadroN2();\n_seccion2Acciones.default.validarcuadroN3();\n_seccion2Acciones.default.clickbotonconocemas();",
               "err": {},
-              "uuid": "1e3338fc-a48c-48eb-a1be-52745a793bfa",
-              "parentUUID": "0be8764b-d479-4c40-b598-4d98526cdfa1",
+              "uuid": "dfe9560c-854e-4b20-9de0-22b4885a4626",
+              "parentUUID": "c1c1252c-71c2-4967-b78e-d9b12cdd691a",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "1e3338fc-a48c-48eb-a1be-52745a793bfa"
+            "dfe9560c-854e-4b20-9de0-22b4885a4626"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 4988,
+          "duration": 5288,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "50ff3b4c-4f9f-4170-9b12-07d695e65ed5",
+          "uuid": "23e72cac-b3b2-49c3-af52-88a9a8327b77",
           "title": "Automatizaciones - Sección 3",
           "fullFile": "",
           "file": "",
@@ -447,7 +447,7 @@
               "title": "SECCIÓN 3 - Nuestros servicios",
               "fullTitle": "Automatizaciones - Sección 3 SECCIÓN 3 - Nuestros servicios",
               "timedOut": null,
-              "duration": 2543,
+              "duration": 2785,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -456,26 +456,26 @@
               "context": null,
               "code": "_url.default.urlBase();\n_headeracciones.default.clickbotoncerrar();\n_seccion3Acciones.default.validarNuestrosServicios();\n_seccion3Acciones.default.validarDesarrolloWeb();",
               "err": {},
-              "uuid": "57a84e71-f6ec-45e1-b6f3-0b1b1f08212e",
-              "parentUUID": "50ff3b4c-4f9f-4170-9b12-07d695e65ed5",
+              "uuid": "dd336fdf-5d75-4910-9d08-506d9415bef4",
+              "parentUUID": "23e72cac-b3b2-49c3-af52-88a9a8327b77",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "57a84e71-f6ec-45e1-b6f3-0b1b1f08212e"
+            "dd336fdf-5d75-4910-9d08-506d9415bef4"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 2543,
+          "duration": 2785,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "c7d9748a-dbbc-4bdc-b77c-c7c876e8e6c6",
+          "uuid": "ecf82d8f-9028-469e-a3e2-55637ab97764",
           "title": "Automatizaciones - Sección 4",
           "fullFile": "",
           "file": "",
@@ -486,7 +486,7 @@
               "title": "SECCIÓN 4 - ¿Quiénes somos?",
               "fullTitle": "Automatizaciones - Sección 4 SECCIÓN 4 - ¿Quiénes somos?",
               "timedOut": null,
-              "duration": 3897,
+              "duration": 4111,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -495,26 +495,26 @@
               "context": null,
               "code": "_url.default.urlBase();\n_headeracciones.default.clickbotoncerrar();\n_seccion4Acciones.default.validarquienessomos();\n_seccion4Acciones.default.validarnutrappparrafo();\n_seccion4Acciones.default.clickbotonflecha1();\n_seccion4Acciones.default.validarequipoespeci();\n_seccion4Acciones.default.clickbotonflecha2();\n_seccion4Acciones.default.validarExpeyPresi();\n_seccion4Acciones.default.clickbotonflecha3();\n_seccion4Acciones.default.validarSoluciSegur();",
               "err": {},
-              "uuid": "df4be8b9-ffa5-4fc4-8ee2-fbb3d71c9dfa",
-              "parentUUID": "c7d9748a-dbbc-4bdc-b77c-c7c876e8e6c6",
+              "uuid": "ebb493a1-af3c-4a65-a28d-b3cb21a0fd89",
+              "parentUUID": "ecf82d8f-9028-469e-a3e2-55637ab97764",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "df4be8b9-ffa5-4fc4-8ee2-fbb3d71c9dfa"
+            "ebb493a1-af3c-4a65-a28d-b3cb21a0fd89"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 3897,
+          "duration": 4111,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "3bccedab-a8ab-4c92-a79e-fa21d927d01c",
+          "uuid": "a4d225fa-dfcc-4879-b600-4c63768bccfe",
           "title": "Automatizaciones - Sección 5",
           "fullFile": "",
           "file": "",
@@ -525,7 +525,7 @@
               "title": "SECCIÓN 5 - Equipo",
               "fullTitle": "Automatizaciones - Sección 5 SECCIÓN 5 - Equipo",
               "timedOut": null,
-              "duration": 3534,
+              "duration": 3666,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -534,26 +534,26 @@
               "context": null,
               "code": "_url.default.urlBase();\n_headeracciones.default.clickbotoncerrar();\n_seccion5Acciones.default.clickflechacarrusel();",
               "err": {},
-              "uuid": "8b03efc4-880d-42c3-9c3c-e42fb1e7c8c2",
-              "parentUUID": "3bccedab-a8ab-4c92-a79e-fa21d927d01c",
+              "uuid": "898c427a-054f-441f-b4f5-cd8972c84be9",
+              "parentUUID": "a4d225fa-dfcc-4879-b600-4c63768bccfe",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "8b03efc4-880d-42c3-9c3c-e42fb1e7c8c2"
+            "898c427a-054f-441f-b4f5-cd8972c84be9"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 3534,
+          "duration": 3666,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "6ad8a261-1c78-4ec9-bb77-5eb840b0812c",
+          "uuid": "12a09959-c340-4814-b94a-c15b32bf1fe4",
           "title": "Automatizaciones - Sección 6",
           "fullFile": "",
           "file": "",
@@ -564,7 +564,7 @@
               "title": "SECCIÓN 6 - Transformacion Digital",
               "fullTitle": "Automatizaciones - Sección 6 SECCIÓN 6 - Transformacion Digital",
               "timedOut": null,
-              "duration": 5144,
+              "duration": 5542,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -573,26 +573,26 @@
               "context": null,
               "code": "_url.default.urlBase();\n_headeracciones.default.clickbotoncerrar();\n_seccion6Acciones.default.validarTransfDigital();\n_seccion6Acciones.default.validartransformaciondigitalparrafo();\n_seccion6Acciones.default.clickbotonflecha1_SEC6();\n_seccion6Acciones.default.validarparrafoflecha1_SEC6();\n_seccion6Acciones.default.clickbotonflecha2_SEC6();\n_seccion6Acciones.default.validarParrafoflecha2_SEC6();\n_seccion6Acciones.default.clickbotonflecha3_SEC6();\n_seccion6Acciones.default.validarParrafoflecha3_SEC6();\n_seccion6Acciones.default.clickbotonflecha4_SEC6();\n_seccion6Acciones.default.validarParrafoflecha4_SEC6();\n_seccion6Acciones.default.clickbotonflecha5_SEC6();\n_seccion6Acciones.default.validarParrafoflecha5_SEC6();\n_seccion6Acciones.default.clickbotonflecha6_SEC6();\n_seccion6Acciones.default.validarParrafoflecha6_SEC6();",
               "err": {},
-              "uuid": "d7812536-3aba-47a3-9d95-1b55c53ff88f",
-              "parentUUID": "6ad8a261-1c78-4ec9-bb77-5eb840b0812c",
+              "uuid": "fe7a82b3-761d-48d0-ac98-4da7972ab320",
+              "parentUUID": "12a09959-c340-4814-b94a-c15b32bf1fe4",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "d7812536-3aba-47a3-9d95-1b55c53ff88f"
+            "fe7a82b3-761d-48d0-ac98-4da7972ab320"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 5144,
+          "duration": 5542,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "72b2147d-da37-438e-8594-006c4f49f96e",
+          "uuid": "7926ca3c-1c26-4585-a429-a65a8a91bdf9",
           "title": "Automatizaciones - Sección 7",
           "fullFile": "",
           "file": "",
@@ -603,35 +603,35 @@
               "title": "SECCIÓN 7 - Transformacion Digital",
               "fullTitle": "Automatizaciones - Sección 7 SECCIÓN 7 - Transformacion Digital",
               "timedOut": null,
-              "duration": 9122,
+              "duration": 10318,
               "state": "passed",
-              "speed": "medium",
+              "speed": "slow",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "_url.default.urlBase();\n_seccion7Acciones.default.validarNuesExit7();\n_seccion7Acciones.default.validarNuesServiparrafo_SEC7();\n_headeracciones.default.clickbotoncerrar();\n_seccion7Acciones.default.clickbotonvermas_SEC7();\n_headeracciones.default.clickbotoncerrar();\n_seccion2BlinkAcciones.default.volverPaginaAnterior();\n_seccion7Acciones.default.validarAlivia7();\n_seccion7Acciones.default.ValidarAMF7();\n_seccion7Acciones.default.ValidarAPM7();\n_seccion7Acciones.default.validarNutrabio();\n_seccion7Acciones.default.validarAliviaparrafo_SEC7();\n_seccion7Acciones.default.validarAmfparrafo_SEC7();\n_seccion7Acciones.default.validarAmfparrafo_SEC7();\n_seccion7Acciones.default.validarNutrabioparrafo_SEC7();",
               "err": {},
-              "uuid": "754a0cfc-85fd-45ef-b800-3c5ee7607587",
-              "parentUUID": "72b2147d-da37-438e-8594-006c4f49f96e",
+              "uuid": "bc29c5fe-bc35-49ff-b95a-08b8016a040d",
+              "parentUUID": "7926ca3c-1c26-4585-a429-a65a8a91bdf9",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "754a0cfc-85fd-45ef-b800-3c5ee7607587"
+            "bc29c5fe-bc35-49ff-b95a-08b8016a040d"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 9122,
+          "duration": 10318,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "23a1a463-ee17-44c0-9871-590f4b349771",
+          "uuid": "8289bd86-de15-4902-a787-520a64dc4f58",
           "title": "Automatizaciones - Nuestros Exitos_SEC7",
           "fullFile": "",
           "file": "",
@@ -642,7 +642,7 @@
               "title": "SECCIÓN 7 - Nuestros Exitos_SEC7",
               "fullTitle": "Automatizaciones - Nuestros Exitos_SEC7 SECCIÓN 7 - Nuestros Exitos_SEC7",
               "timedOut": null,
-              "duration": 2353,
+              "duration": 1926,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -651,26 +651,26 @@
               "context": null,
               "code": "_url.default.urlNuesExito();\n_nuestrosexitosSEC7Acciones.default.validartextoNuesExitO_SEC7_2();\n_nuestrosexitosSEC7Acciones.default.validarparrrafoNuesExito_SEC7_2();\n_nuestrosexitosSEC7Acciones.default.validartextoAliv_SEC7_2();\n_nuestrosexitosSEC7Acciones.default.validarparrrafoAliv_SEC7_2();\n_nuestrosexitosSEC7Acciones.default.validartextoAMF_SEC7_2();\n_nuestrosexitosSEC7Acciones.default.validarparrrafoAMF_SEC7_2();\n_nuestrosexitosSEC7Acciones.default.validartextoAPM_SEC7_2();\n_nuestrosexitosSEC7Acciones.default.validarparrrafoAPM_SEC7_2();\n_nuestrosexitosSEC7Acciones.default.validartextoNutra_SEC7_2();\n_nuestrosexitosSEC7Acciones.default.validarparrrafoNutra_SEC7_2();",
               "err": {},
-              "uuid": "87c5a1fc-824d-4733-9f4b-9eb5277db1c7",
-              "parentUUID": "23a1a463-ee17-44c0-9871-590f4b349771",
+              "uuid": "a9ec89e6-9f5f-47bc-bd14-8669710eb804",
+              "parentUUID": "8289bd86-de15-4902-a787-520a64dc4f58",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "87c5a1fc-824d-4733-9f4b-9eb5277db1c7"
+            "a9ec89e6-9f5f-47bc-bd14-8669710eb804"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 2353,
+          "duration": 1926,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "74559c15-108c-476a-922d-5b483d1ec124",
+          "uuid": "a6d3e639-32e7-449b-92e2-192e3feaf698",
           "title": "Automatizaciones - Sección 8",
           "fullFile": "",
           "file": "",
@@ -681,7 +681,7 @@
               "title": "SECCIÓN 8 - Nuestros clientes",
               "fullTitle": "Automatizaciones - Sección 8 SECCIÓN 8 - Nuestros clientes",
               "timedOut": null,
-              "duration": 2480,
+              "duration": 2220,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -690,26 +690,26 @@
               "context": null,
               "code": "_url.default.urlBase();\n_seccion8Acciones.default.validarNuesClie_SEC8();\n_seccion8Acciones.default.validarPreguntatitulo_SEC8();\n_seccion8Acciones.default.validarParrafopregunta_SEC8();",
               "err": {},
-              "uuid": "0530fc83-ee59-4109-b7c8-99eee04b3184",
-              "parentUUID": "74559c15-108c-476a-922d-5b483d1ec124",
+              "uuid": "72fa3001-c312-428a-a7ed-ca98135d3505",
+              "parentUUID": "a6d3e639-32e7-449b-92e2-192e3feaf698",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "0530fc83-ee59-4109-b7c8-99eee04b3184"
+            "72fa3001-c312-428a-a7ed-ca98135d3505"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 2480,
+          "duration": 2220,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "36cd7c13-7ef3-487c-bdc3-b4a7a7dcc796",
+          "uuid": "e94185c1-7deb-41c5-a355-591ee72f341b",
           "title": "Automatizaciones - Sección 9",
           "fullFile": "",
           "file": "",
@@ -720,7 +720,7 @@
               "title": "SECCIÓN 9 - Nuestras Últimas Noticias",
               "fullTitle": "Automatizaciones - Sección 9 SECCIÓN 9 - Nuestras Últimas Noticias",
               "timedOut": null,
-              "duration": 19053,
+              "duration": 20639,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -729,26 +729,26 @@
               "context": null,
               "code": "_url.default.urlBase();\n_headeracciones.default.clickbotoncerrar();\n_seccion9Acciones.default.validarNuesUltiNoti_SEC9();\n_seccion9Acciones.default.validarparrafoNuesUltiNoti_SEC9();\n_seccion9Acciones.default.validarparrafoimagen1_SEC9();\n_seccion9Acciones.default.validarparrafoimagen2_SEC9();\n_seccion9Acciones.default.validarparrafoimagen3_SEC9();\n_seccion9Acciones.default.clickbotonimagen1_SEC9();\n_headeracciones.default.clickbotoncerrar();\n_seccion9Acciones.default.clickbotonimagen2_SEC9();\n_headeracciones.default.clickbotoncerrar();\n_seccion9Acciones.default.clickbotonimagen3_SEC9();",
               "err": {},
-              "uuid": "73d05e19-16d8-4b48-9b5d-e6fc29829e52",
-              "parentUUID": "36cd7c13-7ef3-487c-bdc3-b4a7a7dcc796",
+              "uuid": "3c278a13-fd23-4ede-8805-f7ec471bda8e",
+              "parentUUID": "e94185c1-7deb-41c5-a355-591ee72f341b",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "73d05e19-16d8-4b48-9b5d-e6fc29829e52"
+            "3c278a13-fd23-4ede-8805-f7ec471bda8e"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 19053,
+          "duration": 20639,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "976ebc52-3475-40e4-8a09-e4f3a7a1d9b2",
+          "uuid": "78f05eb5-a60a-4d19-8239-eb48e0dde6b3",
           "title": "Automatizaciones - Sección 10",
           "fullFile": "",
           "file": "",
@@ -759,7 +759,7 @@
               "title": "SECCIÓN 10 - Contáctanos",
               "fullTitle": "Automatizaciones - Sección 10 SECCIÓN 10 - Contáctanos",
               "timedOut": null,
-              "duration": 8015,
+              "duration": 7834,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -768,32 +768,32 @@
               "context": null,
               "code": "_url.default.urlBase();\n_headeracciones.default.clickbotoncerrar();\n_seccion10Acciones.default.validarcontacta_SEC10();\n_seccion10Acciones.default.validarparrafocontac_SEC10();\n_seccion10Acciones.default.validarEscribirnombres_SEC10();\n_seccion10Acciones.default.validarEscribirapellidos_SEC10();\n_seccion10Acciones.default.validarEscribiremail_SEC10();\n_seccion10Acciones.default.validarEscribirtelefono_SEC10();\n_seccion10Acciones.default.validarEscribiraqui_SEC10();\n_seccion10Acciones.default.clickbotonacepto_SEC10();\n_seccion10Acciones.default.clickbotonpoliticas_SEC10();\n_seccion10Acciones.default.clickbotonenviar_SEC10();",
               "err": {},
-              "uuid": "89debc38-8dfe-4ad8-8f17-bf3ec2484738",
-              "parentUUID": "976ebc52-3475-40e4-8a09-e4f3a7a1d9b2",
+              "uuid": "a4e66d02-56b5-43ab-a1bb-d84b73b85516",
+              "parentUUID": "78f05eb5-a60a-4d19-8239-eb48e0dde6b3",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "89debc38-8dfe-4ad8-8f17-bf3ec2484738"
+            "a4e66d02-56b5-43ab-a1bb-d84b73b85516"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 8015,
+          "duration": 7834,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         }
       ],
       "passes": [
-        "1be7e2f8-071c-4158-a12d-ff65ea38d8c4"
+        "f6717673-bd8c-437f-951d-9ef71072eeef"
       ],
       "failures": [],
       "pending": [],
       "skipped": [],
-      "duration": 16196,
+      "duration": 20629,
       "root": true,
       "rootEmpty": false,
       "_timeout": 2000
