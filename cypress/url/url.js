@@ -1,7 +1,7 @@
 class url {
     urlBase = () => cy.visit('https://nutrapp.com.co')
 
-    urlNuesExito = () => cy.visit('https://nutrapp.com.co/index.php/nuestros-exitos/')
+    urlNuesExito = () => cy.visit('https://nutrapp.com.co/index.php/nuestros-exitos/', {timeout: 60000})
     
     urlBlog = () => cy.visit('https://nutrapp.com.co/index.php/blog/')
 

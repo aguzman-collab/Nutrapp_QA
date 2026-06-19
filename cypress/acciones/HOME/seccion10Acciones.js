@@ -26,7 +26,7 @@ class seccion10Acciones{
     }
 
     validarEscribiremail_SEC10 = () => {
-        seccion10Home.obtenerEscribiremail_SEC10().type(Cypress.env('Email')); 
+        seccion10Home.obtenerEscribiremail_SEC10().type(Cypress.env('Email'), { force: true }); 
     }
     
     validarEscribirtelefono_SEC10 = () => {

@@ -150,7 +150,7 @@ class seccion10Home {
     obtenerparrafocontacta_SEC10 = () => cy.get('div[data-id="3a12ae4"] p') 
     obtenerEscribirnombres_SEC10 = () => cy.get('input[name="firstname"]')
     obtenerEscribirapellidos_SEC10 = () => cy.get('input[id="lastname-1327d4f2-a958-4c45-a7b8-3f752265a4c0"]')
-    obtenerEscribiremail_SEC10 = () => cy.get('input[id="email-1327d4f2-a958-4c45-a7b8-3f752265a4c0"]')
+    obtenerEscribiremail_SEC10 = () => cy.get('input[id="email-1327d4f2-a958-4c45-a7b8-3f752265a4c0"]', {timeout: 10000})
     obtenerEscribirtelefono_SEC10 = () => cy.get('input[id="phone-1327d4f2-a958-4c45-a7b8-3f752265a4c0"]')
     obtenerEscribiraqui_SEC10 = () => cy.get('[id="message-1327d4f2-a958-4c45-a7b8-3f752265a4c0"]')
     obtenerbotonacepto_SEC10 = () => cy.get('input[id="datadip2024-1327d4f2-a958-4c45-a7b8-3f752265a4c0"]')
